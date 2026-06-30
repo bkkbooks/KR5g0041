@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0041/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0041/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 道門十規
+  date: '2015-08-29 02:49:22.251593'
+  source:
+    repository: kanripo
+    path: KR5g0041
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0041_000-ZTDZ.yaml, hash: 'sha256:80c8899ec6a5e97b8d9b52efedd38c1ae735906dcdeb44ae1f961689f94fb8c9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0041_000-ZTDZ.markers.yaml, hash: 'sha256:2ff273f28f3ff3dddaab2a0f22d93c17542b3999301f02e3fe49ecd70b380df7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0041_SJB_000-320146b
+    span:
+    - body
+    - 0
+    - 5893
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:67b0a40e5c1788ef2562e1bb01e4f6bfc3fd3d0022d3d1196d60606f83fa1d59
